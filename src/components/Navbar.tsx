@@ -89,7 +89,7 @@ export default function Navbar() {
   return (
     <NavbarStyled>
       <Brand href="/">
-        <img src="/src/assets/logo.png" alt="logo" style={{ height: '50px', width: 'auto' }} />
+        <img src="/public/assets/logo.png" alt="logo" style={{ height: '50px', width: 'auto' }} />
         <BrandText>Vida Activa</BrandText>
       </Brand>
       
