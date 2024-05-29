@@ -1,6 +1,8 @@
+import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'; // Importa tu archivo CSS
 
 const ImageContainer = {
   display: 'flex',
@@ -20,7 +22,7 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12" style={ImageContainer}>
-            <img src="/assets/FOTO1.jpeg" alt="Foto1" className="img-fluid" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+            <img src="/assets/FOTO1.jpeg" alt="Foto1" className="img-fluid" />
           </div>
           <div className="col-12" style={textColor}>
             <p>Nuestro proyecto se basa en conceptos de psicología y pedagogía, enfatizando en la importancia de la prevención del deterioro cognitivo y físico de nuestros mayores. Trabajamos en las investigaciones y estadísticas que muestran la prevalencia de problemas de deterioro físico y cognitivo en la sociedad, en la detección de problemas de fragilidad en nuestros mayores y como un envejecimiento activo es la mejor manera de afrontar la etapa final de la vida.</p>
@@ -35,14 +37,14 @@ function App() {
               <p>Para ello vamos a tener en cuenta las ocho dimensiones de las cuales está compuesta la calidad de vida según Schalock y Verdugo:</p>
               <div className="d-flex">
                 <ul className="list-unstyled text-left mx-3">
-                  <li>- Bienestar emocional</li>
-                  <li>- Relaciones interpersonales</li>
-                  <li>- Desarrollo personal</li>
+                  <li><i className="fas fa-heart icon-hover"></i> Bienestar emocional</li>
+                  <li><i className="fas fa-users icon-hover"></i> Relaciones interpersonales</li>
+                  <li><i className="fas fa-user-graduate icon-hover"></i> Desarrollo personal</li>
                 </ul>
                 <ul className="list-unstyled text-left mx-3">
-                  <li>- Inclusión social</li>
-                  <li>- Bienestar físico</li>
-                  <li>- Autodeterminación</li>
+                  <li><i className="fas fa-handshake icon-hover"></i> Inclusión social</li>
+                  <li><i className="fas fa-dumbbell icon-hover"></i> Bienestar físico</li>
+                  <li><i className="fas fa-user-check icon-hover"></i> Autodeterminación</li>
                 </ul>
               </div>
               <p>Ofrecemos evaluaciones personalizadas para detectar posibles problemas de deterioro tanto cognitivo como físico. Con actividades como gimnasia, manualidades, actividades de estimulación cognitiva, talleres varios, etc.</p>
@@ -52,16 +54,16 @@ function App() {
           <div className="col-12 text-center">
             <div className="row">
               <div className="col-md-3 mb-4">
-                <img src="/assets/FOTO2.jpeg" alt="Foto2" className="img-fluid" />
+                <img src="/assets/FOTO2.jpeg" alt="Foto2" className="img-fluid fixed-size" />
               </div>
               <div className="col-md-3 mb-4">
-                <img src="/assets/FOTO3.jpeg" alt="Foto3" className="img-fluid" />
+                <img src="/assets/FOTO3.jpeg" alt="Foto3" className="img-fluid fixed-size" />
               </div>
               <div className="col-md-3 mb-4">
-                <img src="/assets/FOTO4.jpeg" alt="Foto4" className="img-fluid" />
+                <img src="/assets/FOTO4.jpeg" alt="Foto4" className="img-fluid fixed-size" />
               </div>
               <div className="col-md-3 mb-4">
-                <img src="/assets/FOTO5.jpeg" alt="Foto5" className="img-fluid" />
+                <img src="/assets/FOTO5.jpeg" alt="Foto5" className="img-fluid fixed-size" />
               </div>
             </div>
           </div>
@@ -73,13 +75,13 @@ function App() {
               <br />
               <div className="row">
                 <div className="col-md-4 mb-4">
-                  <img src="/assets/FOTO6.jpeg" alt="Foto6" className="img-fluid" />
+                  <img src="/assets/FOTO6.jpeg" alt="Foto6" className="img-fluid fixed-size2" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/assets/FOTO7.jpeg" alt="Foto7" className="img-fluid" />
+                  <img src="/assets/FOTO7.jpeg" alt="Foto7" className="img-fluid fixed-size2" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/assets/FOTO8.jpeg" alt="Foto8" className="img-fluid" />
+                  <img src="/assets/FOTO8.jpeg" alt="Foto8" className="img-fluid fixed-size2" />
                 </div>
               </div>
             </div>
