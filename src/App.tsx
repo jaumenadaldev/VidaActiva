@@ -20,7 +20,7 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12" style={ImageContainer}>
-            <img src="/public/assets/FOTO1.jpeg" alt="Foto1" className="img-fluid" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+            <img src="/assets/FOTO1.jpeg" alt="Foto1" className="img-fluid" style={{ maxWidth: '100%', maxHeight: '100%' }} />
           </div>
           <div className="col-12" style={textColor}>
             <p>Nuestro proyecto se basa en conceptos de psicología y pedagogía, enfatizando en la importancia de la prevención del deterioro cognitivo y físico de nuestros mayores. Trabajamos en las investigaciones y estadísticas que muestran la prevalencia de problemas de deterioro físico y cognitivo en la sociedad, en la detección de problemas de fragilidad en nuestros mayores y como un envejecimiento activo es la mejor manera de afrontar la etapa final de la vida.</p>
@@ -52,16 +52,16 @@ function App() {
           <div className="col-12 text-center">
             <div className="row">
               <div className="col-md-3 mb-4">
-                <img src="/public/assets/FOTO2.jpeg" alt="Foto2" className="img-fluid" />
+                <img src="/assets/FOTO2.jpeg" alt="Foto2" className="img-fluid" />
               </div>
               <div className="col-md-3 mb-4">
-                <img src="/public/assets/FOTO3.jpeg" alt="Foto3" className="img-fluid" />
+                <img src="/assets/FOTO3.jpeg" alt="Foto3" className="img-fluid" />
               </div>
               <div className="col-md-3 mb-4">
-                <img src="/public/assets/FOTO4.jpeg" alt="Foto4" className="img-fluid" />
+                <img src="/assets/FOTO4.jpeg" alt="Foto4" className="img-fluid" />
               </div>
               <div className="col-md-3 mb-4">
-                <img src="/public/assets/FOTO5.jpeg" alt="Foto5" className="img-fluid" />
+                <img src="/assets/FOTO5.jpeg" alt="Foto5" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -73,13 +73,13 @@ function App() {
               <br />
               <div className="row">
                 <div className="col-md-4 mb-4">
-                  <img src="/public/assets/FOTO6.jpeg" alt="Foto6" className="img-fluid" />
+                  <img src="/assets/FOTO6.jpeg" alt="Foto6" className="img-fluid" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/public/assets/FOTO7.jpeg" alt="Foto7" className="img-fluid" />
+                  <img src="/assets/FOTO7.jpeg" alt="Foto7" className="img-fluid" />
                 </div>
                 <div className="col-md-4 mb-4">
-                  <img src="/public/assets/FOTO8.jpeg" alt="Foto8" className="img-fluid" />
+                  <img src="/assets/FOTO8.jpeg" alt="Foto8" className="img-fluid" />
                 </div>
               </div>
             </div>
