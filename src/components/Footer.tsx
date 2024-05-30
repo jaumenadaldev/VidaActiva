@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const footerStyle = {
-  backgroundColor: '#f8f9fa',
+  backgroundColor: 'white',
   color: '#7a977a',
   padding: '40px 0',
   fontSize: '14px',

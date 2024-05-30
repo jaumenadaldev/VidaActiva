@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container-fluid">
+      <div className="container-fluid app-background">
         <div className="row">
           <div className="col-12" style={ImageContainer}>
             <img src="/assets/FOTO1.jpeg" alt="Foto1" className="img-fluid" />

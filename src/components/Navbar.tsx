@@ -18,7 +18,7 @@ const NavbarStyled = styled.nav<NavbarProps>(
     zIndex: 1000,
   },
   props => ({
-    backgroundColor: props.backgroundColor || '#f8f9fa',
+    backgroundColor: props.backgroundColor || 'white',
     color: props.color || 'black',
   })
 );
